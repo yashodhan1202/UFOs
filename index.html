@@ -13,14 +13,14 @@
     />
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>    
     <div class="jumbotron">
-        <h1>The Truth Is Out There</h1>
+        <h1 class="display-4">The Truth Is Out There</h1>
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -39,19 +39,32 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-            <form>
+            <form class="bg-dark">
                 <p>Filter Search</p>
             </form>
-            <ul class="list-group">
+            <ul class="list-group bg-dark">
 
             </ul>
-            <li class="list-group-item">
+            <li class="list-group-item bg-dark">
                 <label for="date">Enter Date</label><br>
-                <input type="text" placeholder="1/10/2010" id="datetime" />
+                <input type="text" placeholder="1/10/2010" id="datetime" class = "form-control"/>
             </li>
-            <li class="list-group-item">
-                <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-            </li>
+            <li class="list-group-item bg-dark">
+              <label for="City">Enter City</label><br>
+              <input type="text" placeholder="benton" id="city"  class = "form-control" />
+            </li><br>
+            <li class="list-group-item bg-dark">
+              <label for="State">Enter State</label><br>
+              <input type="text" placeholder="ca" id="state" class = "form-control" />
+            </li><br>
+            <li class="list-group-item bg-dark">
+              <label for="Country">Enter Country</label><br>
+              <input type="text" placeholder="us" id="country" class = "form-control" />
+            </li><br>
+            <li class="list-group-item bg-dark">
+              <label for="Shape">Enter Shape</label><br>
+              <input type="text" placeholder="circle" id="shape"  class = "form-control"/>
+            </li><br>
           </div>
           <div class="col-md-9">
             <table class="table table-striped">
