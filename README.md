@@ -8,3 +8,7 @@ Javascript, HTML, Bootstrap and CSS
 
 ## Results ##
 
+The HTML page looks as follows :- 
+
+[!image](https://github.com/yashodhan1202/UFOs/blob/main/HTML_Page.png)
+
