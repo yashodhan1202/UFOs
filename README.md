@@ -10,5 +10,5 @@ Javascript, HTML, Bootstrap and CSS
 
 The HTML page looks as follows :- 
 
-[!image](https://github.com/yashodhan1202/UFOs/blob/main/HTML_Page.png)
+![image](https://github.com/yashodhan1202/UFOs/blob/main/HTML_Page.png)
 
