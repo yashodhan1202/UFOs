@@ -16,6 +16,14 @@ Complete data of the UFO sightings has been provided at the bottom of the HTML p
 
 ![image](https://github.com/yashodhan1202/UFOs/blob/main/filters.png)
 
+## Summary ##
+
+Currently the data that was given to us is based on UFO sightings only from USA. There may have been UFO sightings in the rest of the world. If that data is also included in the base data then providing the filter for country would have made much more sense. If you filter just by country, it would return the exact same data as it is when the page is opened.
+
+Two recommendations are as follows :- 
+1) Add data for UFO sightings from around the world to the base data
+2) The data currently given can be challenged as there is no data point to validate the claim. If we can have number of people present during the sighting then it would add that extra validity to the claim. Also if the phenomena was recorded the equipment through which it was recorded can also be given to support the claim.
+
 
 
 
